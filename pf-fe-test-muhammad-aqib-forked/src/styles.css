@@ -1,0 +1,33 @@
+body {
+  font-family: sans-serif;
+}
+
+nav {
+  border: 1px solid black;
+  border-radius: 12px;
+  margin-bottom: 12px;
+}
+
+nav ul {
+  padding: 0;
+  margin: 12px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li.current {
+  font-weight: bold;
+}
+
+.content {
+  border: 1px solid black;
+  border-radius: 12px;
+}
+
+#app ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
